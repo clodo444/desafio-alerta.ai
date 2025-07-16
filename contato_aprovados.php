@@ -19,7 +19,6 @@ function lerAlunos($arquivo) {
     return $alunos;
 }
 
-
 function alunosAprovados($alunos, $pontuacaoMinima = 70) {
     return array_filter($alunos, function($aluno) use ($pontuacaoMinima) {// filtra os alunos com pontuação maior ou igual à pontuação mínima
 
